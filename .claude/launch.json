@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "everyplan-dev",
+      "runtimeExecutable": "bash",
+      "runtimeArgs": ["-c", "export PATH=$HOME/.local/bin:$PATH && cd packages/standalone && npx next dev -p 3000"],
+      "port": 3000
+    },
+    {
+      "name": "mapc-osm-explorer",
+      "runtimeExecutable": "bash",
+      "runtimeArgs": ["-c", "cd /Users/stephenlarrick/Documents/mapc-osm-explorer && npm run dev -- --port 5174"],
+      "port": 5174
+    }
+  ]
+}

@@ -1,0 +1,303 @@
+{
+  "plan_type": "open_space_recreation",
+  "plan_type_label": "Open Space & Recreation Plan",
+  "plan_type_slug": "osrp",
+  "source_workbook": "Open Space and Recreation Planner's Workbook (DCS, 2025)",
+  "source_url": "https://www.mass.gov/doc/open-space-and-recreation-planners-workbook-with-appendices-updated-in-2025/download",
+  "overview_url": "https://www.mass.gov/info-details/open-space-and-recreation-plans",
+  "sections": [
+    {
+      "id": "executive_summary",
+      "label": "Executive Summary",
+      "section_number": "1",
+      "match_patterns": [
+        "executive summary",
+        "plan summary",
+        "section 1"
+      ],
+      "section_type": "executive_summary",
+      "required": true
+    },
+    {
+      "id": "introduction",
+      "label": "Introduction",
+      "section_number": "2",
+      "match_patterns": [
+        "introduction",
+        "section 2"
+      ],
+      "section_type": "introduction",
+      "required": true,
+      "subsections": [
+        {
+          "id": "statement_of_purpose",
+          "label": "Statement of Purpose",
+          "match_patterns": ["statement of purpose", "purpose of the plan"],
+          "subsection_letter": "A"
+        },
+        {
+          "id": "planning_process",
+          "label": "Planning Process and Public Participation",
+          "match_patterns": ["planning process", "public participation", "community engagement process"],
+          "subsection_letter": "B"
+        },
+        {
+          "id": "enhanced_outreach",
+          "label": "Enhanced Outreach and Public Participation",
+          "match_patterns": ["enhanced outreach", "environmental justice outreach", "ej outreach", "enhanced public participation"],
+          "subsection_letter": "C"
+        }
+      ]
+    },
+    {
+      "id": "community_setting",
+      "label": "Community Setting",
+      "section_number": "3",
+      "match_patterns": [
+        "community setting",
+        "community background",
+        "community profile",
+        "section 3"
+      ],
+      "section_type": "analysis",
+      "required": true,
+      "subsections": [
+        {
+          "id": "regional_context",
+          "label": "Regional Context",
+          "match_patterns": ["regional context", "regional setting"],
+          "subsection_letter": "A"
+        },
+        {
+          "id": "population_characteristics",
+          "label": "Population Characteristics",
+          "match_patterns": ["population", "demographics", "population characteristics"],
+          "subsection_letter": "B"
+        },
+        {
+          "id": "growth_development",
+          "label": "Growth and Development Patterns",
+          "match_patterns": ["growth and development", "development patterns", "land use", "zoning"],
+          "subsection_letter": "C"
+        }
+      ]
+    },
+    {
+      "id": "environmental_inventory",
+      "label": "Environmental Inventory and Analysis",
+      "section_number": "4",
+      "match_patterns": [
+        "environmental inventory",
+        "environmental inventory and analysis",
+        "natural resources",
+        "section 4"
+      ],
+      "section_type": "inventory",
+      "required": true,
+      "subsections": [
+        {
+          "id": "soils_topography",
+          "label": "Soils and Topography",
+          "match_patterns": ["soils", "topography", "geology", "soils and topography"],
+          "subsection_letter": "A"
+        },
+        {
+          "id": "water_resources",
+          "label": "Water Resources",
+          "match_patterns": ["water resources", "water supply", "watersheds", "aquifer"],
+          "subsection_letter": "B"
+        },
+        {
+          "id": "vegetation",
+          "label": "Vegetation",
+          "match_patterns": ["vegetation", "plant communities", "forest", "trees"],
+          "subsection_letter": "C"
+        },
+        {
+          "id": "fisheries_wildlife",
+          "label": "Fisheries and Wildlife",
+          "match_patterns": ["fisheries", "wildlife", "fisheries and wildlife", "habitat", "biomap"],
+          "subsection_letter": "D"
+        },
+        {
+          "id": "scenic_resources",
+          "label": "Scenic Resources and Unique Environments",
+          "match_patterns": ["scenic resources", "unique environments", "unique features", "scenic"],
+          "subsection_letter": "E"
+        },
+        {
+          "id": "climate_change",
+          "label": "Climate Change Impacts",
+          "match_patterns": ["climate change", "climate resilience", "climate impacts", "climate"],
+          "subsection_letter": "F"
+        }
+      ]
+    },
+    {
+      "id": "conservation_recreation_inventory",
+      "label": "Conservation and Recreation Lands Inventory",
+      "section_number": "5",
+      "match_patterns": [
+        "conservation and recreation",
+        "lands inventory",
+        "open space inventory",
+        "inventory of lands",
+        "section 5"
+      ],
+      "section_type": "inventory",
+      "required": true,
+      "subsections": [
+        {
+          "id": "municipal_properties",
+          "label": "Municipally Owned Conservation and Recreation Properties",
+          "match_patterns": ["municipally owned", "municipal properties", "town owned", "city owned"],
+          "subsection_letter": null
+        },
+        {
+          "id": "public_properties",
+          "label": "Public Properties (Non-Municipal)",
+          "match_patterns": ["public properties", "state properties", "federal properties", "non-municipal"],
+          "subsection_letter": null
+        },
+        {
+          "id": "private_parcels",
+          "label": "Permanently Protected Private Parcels",
+          "match_patterns": ["private parcels", "permanently protected", "conservation restrictions", "private land"],
+          "subsection_letter": null
+        },
+        {
+          "id": "park_equity",
+          "label": "Park and Open Space Equity",
+          "match_patterns": ["park equity", "open space equity", "equity analysis", "equitable access"],
+          "subsection_letter": null
+        }
+      ]
+    },
+    {
+      "id": "analysis_of_needs",
+      "label": "Analysis of Needs",
+      "section_number": "6",
+      "match_patterns": [
+        "analysis of needs",
+        "needs analysis",
+        "community needs",
+        "section 6"
+      ],
+      "section_type": "analysis",
+      "required": true,
+      "subsections": [
+        {
+          "id": "natural_resource_needs",
+          "label": "Summary of Natural Resource Protection Needs",
+          "match_patterns": ["natural resource protection", "resource protection needs", "environmental needs"],
+          "subsection_letter": "A"
+        },
+        {
+          "id": "recreation_needs",
+          "label": "Summary of Community's Outdoor Recreation Needs",
+          "match_patterns": ["recreation needs", "outdoor recreation needs", "recreational needs"],
+          "subsection_letter": "B"
+        },
+        {
+          "id": "management_needs",
+          "label": "Management Needs",
+          "match_patterns": ["management needs", "management and maintenance"],
+          "subsection_letter": "C"
+        }
+      ]
+    },
+    {
+      "id": "action_plan",
+      "label": "Action Plan",
+      "section_number": "7",
+      "match_patterns": [
+        "action plan",
+        "goals and objectives",
+        "seven year action plan",
+        "five year action plan",
+        "implementation plan",
+        "section 7"
+      ],
+      "section_type": "goals",
+      "required": true
+    },
+    {
+      "id": "public_comments",
+      "label": "Public Comments",
+      "section_number": "8",
+      "match_patterns": [
+        "public comments",
+        "letters of support",
+        "public comment",
+        "section 8"
+      ],
+      "section_type": "other",
+      "required": true
+    },
+    {
+      "id": "references",
+      "label": "References",
+      "section_number": "9",
+      "match_patterns": [
+        "references",
+        "bibliography",
+        "works cited",
+        "section 9"
+      ],
+      "section_type": "other",
+      "required": false
+    }
+  ],
+  "appendix_patterns": [
+    "appendix",
+    "appendices",
+    "attachment"
+  ],
+  "required_maps": [
+    {"id": "regional_context", "label": "Regional Context", "map_number": 1},
+    {"id": "environmental_justice", "label": "Environmental Justice", "map_number": 2},
+    {"id": "zoning", "label": "Zoning", "map_number": 3},
+    {"id": "soils", "label": "Soils", "map_number": 4},
+    {"id": "water_resources", "label": "Water Resources", "map_number": 5},
+    {"id": "unique_features", "label": "Unique Features", "map_number": 6},
+    {"id": "climate_change", "label": "Climate Change", "map_number": 7},
+    {"id": "open_space_inventory", "label": "Inventory of Open Space", "map_number": 8}
+  ],
+  "known_data_sources": [
+    {"name": "U.S. Census Bureau", "patterns": ["census", "u.s. census", "us census", "decennial census"]},
+    {"name": "American Community Survey (ACS)", "patterns": ["american community survey", "acs", "acs 5-year", "acs 1-year"]},
+    {"name": "MassGIS", "patterns": ["massgis", "mass gis", "oliver"]},
+    {"name": "USDA NRCS Soils Data", "patterns": ["usda", "nrcs", "natural resources conservation", "soils data"]},
+    {"name": "BioMap (NHESP)", "patterns": ["biomap", "nhesp", "natural heritage", "endangered species"]},
+    {"name": "MVP / Climate Change Projections", "patterns": ["mvp", "municipal vulnerability", "climate projections", "resilient ma"]},
+    {"name": "EJ Dataviewer", "patterns": ["ej dataviewer", "environmental justice map", "ej population"]},
+    {"name": "MassDEP", "patterns": ["massdep", "dep", "department of environmental protection"]},
+    {"name": "FEMA Flood Maps", "patterns": ["fema", "flood map", "flood zone", "floodplain map", "firm"]},
+    {"name": "EPA", "patterns": ["epa", "environmental protection agency"]},
+    {"name": "USGS", "patterns": ["usgs", "u.s. geological survey", "geological survey"]},
+    {"name": "Mass Audubon", "patterns": ["mass audubon", "audubon", "losing ground"]},
+    {"name": "MAPC Data", "patterns": ["mapc", "metropolitan area planning", "datacommon"]}
+  ],
+  "known_consultants": [
+    "Horsley Witten Group",
+    "Stantec",
+    "MAPC",
+    "VHB",
+    "Weston & Sampson",
+    "RKG Associates",
+    "BSC Group",
+    "Dodson & Flinker",
+    "Community Opportunities Group",
+    "Barrett Planning Group",
+    "Beals and Thomas",
+    "Comprehensive Environmental",
+    "GEI Consultants",
+    "Green International",
+    "Kleinfelder",
+    "Kyle Zick Landscape Architecture",
+    "Pare Corporation",
+    "Tighe & Bond",
+    "Nitsch Engineering",
+    "Activitas"
+  ]
+}

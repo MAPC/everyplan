@@ -1,0 +1,13 @@
+{
+  "name": "everyplan",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=packages/standalone",
+    "build": "npm run build --workspace=packages/standalone",
+    "start": "npm run start --workspace=packages/standalone",
+    "pipeline": "python3 data/pipeline/process_plans.py"
+  }
+}

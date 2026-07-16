@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+
+# Next.js build output
+.next/
+out/
+build/
+
+# macOS
+.DS_Store
+
+# Office temp/lock files
+~$*.docx
+
+# Local duplicates and scratch (not part of the project)
+files 2/
+files.zip
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Env files
+.env
+.env*.local
+
+# Claude Code local settings (machine-specific)
+.claude/settings.local.json
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo

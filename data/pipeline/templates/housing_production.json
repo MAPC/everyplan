@@ -1,0 +1,236 @@
+{
+  "plan_type": "housing_production",
+  "plan_type_label": "Housing Production Plan",
+  "plan_type_slug": "hpp",
+  "source_workbook": "DHCD Housing Production Plan Guidelines (760 CMR 56.03(4), October 2020)",
+  "source_url": "https://www.mass.gov/info-details/chapter-40-b-housing-production",
+  "overview_url": "https://www.mapc.org/resource-library/whatishpp/",
+  "sections": [
+    {
+      "id": "executive_summary",
+      "label": "Executive Summary",
+      "section_number": "1",
+      "match_patterns": [
+        "executive summary",
+        "plan summary",
+        "overview",
+        "chapter 1"
+      ],
+      "section_type": "executive_summary",
+      "required": false
+    },
+    {
+      "id": "housing_needs_assessment",
+      "label": "Comprehensive Housing Needs Assessment",
+      "section_number": "2",
+      "match_patterns": [
+        "housing needs",
+        "needs assessment",
+        "comprehensive housing needs",
+        "demographic",
+        "housing market",
+        "chapter 2"
+      ],
+      "section_type": "analysis",
+      "required": true,
+      "subsections": [
+        {
+          "id": "demographics",
+          "label": "Demographic and Housing Data",
+          "match_patterns": ["demographic", "population", "household", "housing stock", "tenure", "race", "ethnicity", "age"],
+          "subsection_letter": "A"
+        },
+        {
+          "id": "housing_market",
+          "label": "Housing Market Analysis",
+          "match_patterns": ["housing market", "sale prices", "rents", "affordability", "cost burden", "housing costs", "median home"],
+          "subsection_letter": "B"
+        },
+        {
+          "id": "building_permits",
+          "label": "Building Permit and Development Trends",
+          "match_patterns": ["building permit", "development pipeline", "construction", "new housing"],
+          "subsection_letter": "C"
+        },
+        {
+          "id": "shi_status",
+          "label": "Subsidized Housing Inventory (SHI)",
+          "match_patterns": ["subsidized housing inventory", "shi", "chapter 40b", "10 percent", "10%", "affordable housing inventory", "shi status"],
+          "subsection_letter": "D"
+        }
+      ]
+    },
+    {
+      "id": "development_constraints",
+      "label": "Development Constraints and Limitations",
+      "section_number": "3",
+      "match_patterns": [
+        "development constraints",
+        "constraints and limitations",
+        "barriers",
+        "limitations",
+        "chapter 3"
+      ],
+      "section_type": "analysis",
+      "required": true,
+      "subsections": [
+        {
+          "id": "environmental_constraints",
+          "label": "Environmental Constraints",
+          "match_patterns": ["environmental constraints", "wetlands", "flood zone", "water supply", "environmental"],
+          "subsection_letter": "A"
+        },
+        {
+          "id": "infrastructure",
+          "label": "Infrastructure Capacity",
+          "match_patterns": ["infrastructure", "water", "sewer", "roads", "transit", "schools", "capacity"],
+          "subsection_letter": "B"
+        },
+        {
+          "id": "regulatory_barriers",
+          "label": "Regulatory Barriers",
+          "match_patterns": ["regulatory", "zoning", "permitting", "density", "zoning barriers", "regulatory barriers"],
+          "subsection_letter": "C"
+        }
+      ]
+    },
+    {
+      "id": "affordable_housing_goals",
+      "label": "Affordable Housing Goals",
+      "section_number": "4",
+      "match_patterns": [
+        "housing goals",
+        "affordable housing goals",
+        "production goals",
+        "production targets",
+        "chapter 4"
+      ],
+      "section_type": "goals",
+      "required": true,
+      "subsections": [
+        {
+          "id": "production_targets",
+          "label": "Annual Production Targets",
+          "match_patterns": ["production target", "annual target", "0.5%", "1.0%", "unit production", "certification"],
+          "subsection_letter": "A"
+        },
+        {
+          "id": "unit_type_mix",
+          "label": "Unit Type Mix",
+          "match_patterns": ["unit type", "rental", "ownership", "family", "senior", "special needs", "unit mix"],
+          "subsection_letter": "B"
+        }
+      ]
+    },
+    {
+      "id": "development_locations",
+      "label": "Identification of Development Locations",
+      "section_number": "5",
+      "match_patterns": [
+        "development locations",
+        "opportunity sites",
+        "development sites",
+        "potential sites",
+        "suitable sites",
+        "chapter 5"
+      ],
+      "section_type": "inventory",
+      "required": true,
+      "subsections": [
+        {
+          "id": "zoning_districts",
+          "label": "Zoning Districts for Housing",
+          "match_patterns": ["zoning district", "zoning for housing", "residential zoning"],
+          "subsection_letter": "A"
+        },
+        {
+          "id": "specific_sites",
+          "label": "Specific Sites for Affordable Housing",
+          "match_patterns": ["specific sites", "publicly owned", "underutilized", "tod", "opportunity site", "development opportunity"],
+          "subsection_letter": "B"
+        },
+        {
+          "id": "zoning_changes",
+          "label": "Zoning Changes Needed",
+          "match_patterns": ["zoning change", "zoning reform", "density increase", "accessory", "mixed-use", "overlay"],
+          "subsection_letter": "C"
+        }
+      ]
+    },
+    {
+      "id": "implementation_strategies",
+      "label": "Implementation Strategies",
+      "section_number": "6",
+      "match_patterns": [
+        "implementation",
+        "strategies",
+        "implementation strategies",
+        "action plan",
+        "recommendations",
+        "chapter 6"
+      ],
+      "section_type": "goals",
+      "required": true,
+      "subsections": [
+        {
+          "id": "zoning_reform",
+          "label": "Zoning Reform Strategies",
+          "match_patterns": ["zoning reform", "zoning strategy", "bylaw", "ordinance"],
+          "subsection_letter": "A"
+        },
+        {
+          "id": "production_programs",
+          "label": "Housing Production Programs",
+          "match_patterns": ["lip", "chapter 40r", "inclusionary", "production program", "40r", "housing program"],
+          "subsection_letter": "B"
+        },
+        {
+          "id": "funding_strategies",
+          "label": "Funding Strategies",
+          "match_patterns": ["funding", "cpa", "home", "cdbg", "lihtc", "municipal bond", "financing", "community preservation"],
+          "subsection_letter": "C"
+        },
+        {
+          "id": "partnerships",
+          "label": "Partnerships",
+          "match_patterns": ["partnership", "developer", "nonprofit", "housing authority", "regional"],
+          "subsection_letter": "D"
+        }
+      ]
+    }
+  ],
+  "appendix_patterns": [
+    "appendix",
+    "appendices",
+    "attachment",
+    "technical appendix"
+  ],
+  "required_maps": [],
+  "known_data_sources": [
+    {"name": "U.S. Census Bureau", "patterns": ["census", "u.s. census", "us census", "decennial census"]},
+    {"name": "American Community Survey (ACS)", "patterns": ["american community survey", "acs", "acs 5-year", "acs 1-year"]},
+    {"name": "DHCD Subsidized Housing Inventory (SHI)", "patterns": ["subsidized housing inventory", "shi", "dhcd", "shi list"]},
+    {"name": "Warren Group / The Warren Group", "patterns": ["warren group", "warren data"]},
+    {"name": "MLS / Multiple Listing Service", "patterns": ["mls", "multiple listing", "listing data"]},
+    {"name": "U.S. Bureau of Labor Statistics (BLS)", "patterns": ["bureau of labor", "bls", "employment data"]},
+    {"name": "HUD / Dept. of Housing and Urban Development", "patterns": ["hud", "housing and urban development", "fair market rent", "area median income", "ami"]},
+    {"name": "MassGIS", "patterns": ["massgis", "mass gis"]},
+    {"name": "MA Executive Office of Housing and Livable Communities (EOHLC)", "patterns": ["eohlc", "executive office of housing", "eohed"]},
+    {"name": "Community Preservation Act (CPA)", "patterns": ["cpa", "community preservation act", "community preservation fund"]},
+    {"name": "MAPC Data", "patterns": ["mapc", "metropolitan area planning", "datacommon"]}
+  ],
+  "known_consultants": [
+    "Anser Advisory",
+    "RKG Associates",
+    "MAPC",
+    "Barrett Planning Group",
+    "Community Opportunities Group",
+    "Stantec",
+    "Karen Sunnarborg Consulting",
+    "JM Goldson",
+    "LDS Consulting Group",
+    "Horsley Witten Group",
+    "Utile",
+    "Winter Street Architects"
+  ]
+}

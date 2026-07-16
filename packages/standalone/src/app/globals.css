@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #F7F9FC;
+  --foreground: #333333;
+  --everyplan-primary: #1B4F72;
+  --everyplan-accent: #2E75B6;
+  --everyplan-teal: #2E9E78;
+  --everyplan-mint: #43C99B;
+  --everyplan-forest: #1B6B52;
+  --everyplan-coral: #D85A30;
+  --everyplan-amber: #BA7517;
+  --everyplan-purple: #534AB7;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Inter, 'Helvetica Neue', Arial, sans-serif;
+}
+
+mark {
+  background-color: #FEF3C7;
+  color: inherit;
+  padding: 0 2px;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #999;
+}
+
+.plan-content p {
+  margin-bottom: 0.75rem;
+  line-height: 1.7;
+}
+.plan-content h1, .plan-content h2, .plan-content h3 {
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  color: #1B4F72;
+}
+
+.leaflet-container {
+  font-family: Inter, 'Helvetica Neue', Arial, sans-serif;
+  z-index: 1;
+}
+
+/* EveryPlan map tooltip (DataCommon style) */
+.ep-tooltip {
+  background: white !important;
+  border: 1px solid #e5e7eb !important;
+  border-radius: 8px !important;
+  padding: 8px 12px !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12) !important;
+  font-family: Inter, 'Helvetica Neue', Arial, sans-serif !important;
+  line-height: 1.4 !important;
+}
+.ep-tooltip::before {
+  border-top-color: white !important;
+}
+.leaflet-tooltip-top .ep-tooltip::before {
+  border-top-color: white !important;
+}
+
+/* Map page: keep navbar above map */
+.leaflet-top.leaflet-right {
+  z-index: 5;
+}
+
+/* Ensure sidebar scrollbar blends in */
+.map-sidebar::-webkit-scrollbar {
+  width: 4px;
+}
+.map-sidebar::-webkit-scrollbar-thumb {
+  background: #d1d5db;
+  border-radius: 2px;
+}

@@ -1,0 +1,2130 @@
+{
+  "type": "FeatureCollection",
+  "name": "MAPC_Municipalities",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Reading",
+        "id": "reading",
+        "mapc_subregion": "NSPC",
+        "has_plan": true,
+        "plan_count": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.1140, 42.5450],
+          [-71.1080, 42.5400],
+          [-71.0980, 42.5350],
+          [-71.0850, 42.5300],
+          [-71.0760, 42.5260],
+          [-71.0740, 42.5180],
+          [-71.0750, 42.5100],
+          [-71.0780, 42.5050],
+          [-71.0850, 42.5020],
+          [-71.0950, 42.5030],
+          [-71.1050, 42.5080],
+          [-71.1130, 42.5150],
+          [-71.1170, 42.5250],
+          [-71.1180, 42.5350],
+          [-71.1140, 42.5450]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Burlington",
+        "id": "burlington",
+        "mapc_subregion": "NSPC",
+        "has_plan": true,
+        "plan_count": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.2200, 42.5250],
+          [-71.2100, 42.5200],
+          [-71.2000, 42.5150],
+          [-71.1900, 42.5100],
+          [-71.1780, 42.5050],
+          [-71.1700, 42.4950],
+          [-71.1720, 42.4850],
+          [-71.1780, 42.4780],
+          [-71.1900, 42.4780],
+          [-71.2000, 42.4800],
+          [-71.2100, 42.4850],
+          [-71.2200, 42.4920],
+          [-71.2250, 42.5020],
+          [-71.2250, 42.5130],
+          [-71.2200, 42.5250]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lynnfield",
+        "id": "lynnfield",
+        "mapc_subregion": "NSPC",
+        "has_plan": true,
+        "plan_count": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.0650, 42.5500],
+          [-71.0550, 42.5450],
+          [-71.0400, 42.5380],
+          [-71.0280, 42.5320],
+          [-71.0220, 42.5250],
+          [-71.0250, 42.5150],
+          [-71.0300, 42.5080],
+          [-71.0400, 42.5060],
+          [-71.0500, 42.5080],
+          [-71.0600, 42.5130],
+          [-71.0680, 42.5220],
+          [-71.0700, 42.5330],
+          [-71.0700, 42.5420],
+          [-71.0650, 42.5500]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "North Reading",
+        "id": "north-reading",
+        "mapc_subregion": "NSPC",
+        "has_plan": true,
+        "plan_count": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.1100, 42.6050],
+          [-71.0980, 42.6000],
+          [-71.0850, 42.5930],
+          [-71.0700, 42.5850],
+          [-71.0620, 42.5750],
+          [-71.0600, 42.5650],
+          [-71.0650, 42.5550],
+          [-71.0750, 42.5500],
+          [-71.0850, 42.5480],
+          [-71.0950, 42.5500],
+          [-71.1050, 42.5560],
+          [-71.1120, 42.5650],
+          [-71.1150, 42.5750],
+          [-71.1160, 42.5880],
+          [-71.1140, 42.5960],
+          [-71.1100, 42.6050]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stoneham",
+        "id": "stoneham",
+        "mapc_subregion": "NSPC",
+        "has_plan": true,
+        "plan_count": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.1150, 42.5020],
+          [-71.1080, 42.4980],
+          [-71.0980, 42.4920],
+          [-71.0880, 42.4850],
+          [-71.0820, 42.4780],
+          [-71.0800, 42.4700],
+          [-71.0830, 42.4620],
+          [-71.0900, 42.4580],
+          [-71.1000, 42.4580],
+          [-71.1080, 42.4620],
+          [-71.1150, 42.4700],
+          [-71.1190, 42.4800],
+          [-71.1200, 42.4900],
+          [-71.1150, 42.5020]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wakefield",
+        "id": "wakefield",
+        "mapc_subregion": "NSPC",
+        "has_plan": true,
+        "plan_count": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.0880, 42.5260],
+          [-71.0800, 42.5220],
+          [-71.0700, 42.5160],
+          [-71.0600, 42.5100],
+          [-71.0530, 42.5020],
+          [-71.0500, 42.4930],
+          [-71.0530, 42.4850],
+          [-71.0600, 42.4800],
+          [-71.0700, 42.4780],
+          [-71.0780, 42.4810],
+          [-71.0850, 42.4880],
+          [-71.0900, 42.4970],
+          [-71.0920, 42.5070],
+          [-71.0920, 42.5170],
+          [-71.0880, 42.5260]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wilmington",
+        "id": "wilmington",
+        "mapc_subregion": "NSPC",
+        "has_plan": true,
+        "plan_count": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.2050, 42.5880],
+          [-71.1950, 42.5830],
+          [-71.1800, 42.5760],
+          [-71.1650, 42.5680],
+          [-71.1500, 42.5600],
+          [-71.1420, 42.5500],
+          [-71.1400, 42.5400],
+          [-71.1450, 42.5320],
+          [-71.1550, 42.5280],
+          [-71.1680, 42.5300],
+          [-71.1800, 42.5350],
+          [-71.1920, 42.5420],
+          [-71.2020, 42.5520],
+          [-71.2080, 42.5640],
+          [-71.2100, 42.5760],
+          [-71.2050, 42.5880]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Winchester",
+        "id": "winchester",
+        "mapc_subregion": "NSPC",
+        "has_plan": true,
+        "plan_count": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.1550, 42.4720],
+          [-71.1480, 42.4680],
+          [-71.1380, 42.4620],
+          [-71.1280, 42.4560],
+          [-71.1200, 42.4480],
+          [-71.1180, 42.4400],
+          [-71.1200, 42.4320],
+          [-71.1280, 42.4270],
+          [-71.1370, 42.4260],
+          [-71.1450, 42.4300],
+          [-71.1530, 42.4380],
+          [-71.1580, 42.4470],
+          [-71.1600, 42.4570],
+          [-71.1580, 42.4660],
+          [-71.1550, 42.4720]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Woburn",
+        "id": "woburn",
+        "mapc_subregion": "NSPC",
+        "has_plan": true,
+        "plan_count": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.1780, 42.5080],
+          [-71.1700, 42.5030],
+          [-71.1600, 42.4970],
+          [-71.1500, 42.4900],
+          [-71.1400, 42.4830],
+          [-71.1350, 42.4730],
+          [-71.1320, 42.4630],
+          [-71.1350, 42.4550],
+          [-71.1420, 42.4500],
+          [-71.1520, 42.4480],
+          [-71.1620, 42.4510],
+          [-71.1700, 42.4580],
+          [-71.1760, 42.4670],
+          [-71.1800, 42.4780],
+          [-71.1810, 42.4890],
+          [-71.1800, 42.5000],
+          [-71.1780, 42.5080]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Acton",
+        "id": "acton",
+        "mapc_subregion": "MAGIC",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.4600, 42.5100],
+          [-71.4200, 42.5100],
+          [-71.4200, 42.4700],
+          [-71.4600, 42.4700],
+          [-71.4600, 42.5100]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bedford",
+        "id": "bedford",
+        "mapc_subregion": "MAGIC",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.2950, 42.5100],
+          [-71.2550, 42.5100],
+          [-71.2550, 42.4700],
+          [-71.2950, 42.4700],
+          [-71.2950, 42.5100]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bolton",
+        "id": "bolton",
+        "mapc_subregion": "MAGIC",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.6350, 42.4550],
+          [-71.5950, 42.4550],
+          [-71.5950, 42.4150],
+          [-71.6350, 42.4150],
+          [-71.6350, 42.4550]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Boxborough",
+        "id": "boxborough",
+        "mapc_subregion": "MAGIC",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.5400, 42.5100],
+          [-71.5050, 42.5100],
+          [-71.5050, 42.4750],
+          [-71.5400, 42.4750],
+          [-71.5400, 42.5100]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Carlisle",
+        "id": "carlisle",
+        "mapc_subregion": "MAGIC",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.3700, 42.5600],
+          [-71.3300, 42.5600],
+          [-71.3300, 42.5200],
+          [-71.3700, 42.5200],
+          [-71.3700, 42.5600]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Concord",
+        "id": "concord",
+        "mapc_subregion": "MAGIC",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.3900, 42.4800],
+          [-71.3400, 42.4800],
+          [-71.3400, 42.4350],
+          [-71.3900, 42.4350],
+          [-71.3900, 42.4800]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hudson",
+        "id": "hudson",
+        "mapc_subregion": "MAGIC",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.5800, 42.4050],
+          [-71.5400, 42.4050],
+          [-71.5400, 42.3700],
+          [-71.5800, 42.3700],
+          [-71.5800, 42.4050]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lexington",
+        "id": "lexington",
+        "mapc_subregion": "MAGIC",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.2500, 42.4650],
+          [-71.2050, 42.4650],
+          [-71.2050, 42.4250],
+          [-71.2500, 42.4250],
+          [-71.2500, 42.4650]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lincoln",
+        "id": "lincoln",
+        "mapc_subregion": "MAGIC",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.3350, 42.4350],
+          [-71.2950, 42.4350],
+          [-71.2950, 42.4000],
+          [-71.3350, 42.4000],
+          [-71.3350, 42.4350]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Littleton",
+        "id": "littleton",
+        "mapc_subregion": "MAGIC",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.5100, 42.5600],
+          [-71.4650, 42.5600],
+          [-71.4650, 42.5200],
+          [-71.5100, 42.5200],
+          [-71.5100, 42.5600]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maynard",
+        "id": "maynard",
+        "mapc_subregion": "MAGIC",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.4700, 42.4450],
+          [-71.4400, 42.4450],
+          [-71.4400, 42.4200],
+          [-71.4700, 42.4200],
+          [-71.4700, 42.4450]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stow",
+        "id": "stow",
+        "mapc_subregion": "MAGIC",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.5300, 42.4500],
+          [-71.4850, 42.4500],
+          [-71.4850, 42.4100],
+          [-71.5300, 42.4100],
+          [-71.5300, 42.4500]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sudbury",
+        "id": "sudbury",
+        "mapc_subregion": "MAGIC",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.4300, 42.4100],
+          [-71.3800, 42.4100],
+          [-71.3800, 42.3650],
+          [-71.4300, 42.3650],
+          [-71.4300, 42.4100]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ashland",
+        "id": "ashland",
+        "mapc_subregion": "MetroWest",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.4800, 42.2750],
+          [-71.4400, 42.2750],
+          [-71.4400, 42.2400],
+          [-71.4800, 42.2400],
+          [-71.4800, 42.2750]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Framingham",
+        "id": "framingham",
+        "mapc_subregion": "MetroWest",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.4600, 42.3200],
+          [-71.3900, 42.3200],
+          [-71.3900, 42.2700],
+          [-71.4600, 42.2700],
+          [-71.4600, 42.3200]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Holliston",
+        "id": "holliston",
+        "mapc_subregion": "MetroWest",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.4600, 42.2200],
+          [-71.4200, 42.2200],
+          [-71.4200, 42.1800],
+          [-71.4600, 42.1800],
+          [-71.4600, 42.2200]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hopkinton",
+        "id": "hopkinton",
+        "mapc_subregion": "MetroWest",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.5600, 42.2500],
+          [-71.5000, 42.2500],
+          [-71.5000, 42.2000],
+          [-71.5600, 42.2000],
+          [-71.5600, 42.2500]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Marlborough",
+        "id": "marlborough",
+        "mapc_subregion": "MetroWest",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.5700, 42.3600],
+          [-71.5100, 42.3600],
+          [-71.5100, 42.3150],
+          [-71.5700, 42.3150],
+          [-71.5700, 42.3600]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Natick",
+        "id": "natick",
+        "mapc_subregion": "MetroWest",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.3700, 42.3100],
+          [-71.3200, 42.3100],
+          [-71.3200, 42.2700],
+          [-71.3700, 42.2700],
+          [-71.3700, 42.3100]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Southborough",
+        "id": "southborough",
+        "mapc_subregion": "MetroWest",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.5400, 42.3200],
+          [-71.4900, 42.3200],
+          [-71.4900, 42.2800],
+          [-71.5400, 42.2800],
+          [-71.5400, 42.3200]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wayland",
+        "id": "wayland",
+        "mapc_subregion": "MetroWest",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.3800, 42.3750],
+          [-71.3400, 42.3750],
+          [-71.3400, 42.3400],
+          [-71.3800, 42.3400],
+          [-71.3800, 42.3750]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wellesley",
+        "id": "wellesley",
+        "mapc_subregion": "MetroWest",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.3200, 42.3150],
+          [-71.2700, 42.3150],
+          [-71.2700, 42.2800],
+          [-71.3200, 42.2800],
+          [-71.3200, 42.3150]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Weston",
+        "id": "weston",
+        "mapc_subregion": "MetroWest",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.3300, 42.3800],
+          [-71.2850, 42.3800],
+          [-71.2850, 42.3400],
+          [-71.3300, 42.3400],
+          [-71.3300, 42.3800]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Canton",
+        "id": "canton",
+        "mapc_subregion": "TRIC",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.1650, 42.1800],
+          [-71.1200, 42.1800],
+          [-71.1200, 42.1450],
+          [-71.1650, 42.1450],
+          [-71.1650, 42.1800]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dedham",
+        "id": "dedham",
+        "mapc_subregion": "TRIC",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.1900, 42.2600],
+          [-71.1500, 42.2600],
+          [-71.1500, 42.2250],
+          [-71.1900, 42.2250],
+          [-71.1900, 42.2600]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dover",
+        "id": "dover",
+        "mapc_subregion": "TRIC",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.2950, 42.2600],
+          [-71.2500, 42.2600],
+          [-71.2500, 42.2200],
+          [-71.2950, 42.2200],
+          [-71.2950, 42.2600]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Foxborough",
+        "id": "foxborough",
+        "mapc_subregion": "TRIC",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.2700, 42.0850],
+          [-71.2200, 42.0850],
+          [-71.2200, 42.0450],
+          [-71.2700, 42.0450],
+          [-71.2700, 42.0850]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Medfield",
+        "id": "medfield",
+        "mapc_subregion": "TRIC",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.3300, 42.2000],
+          [-71.2850, 42.2000],
+          [-71.2850, 42.1650],
+          [-71.3300, 42.1650],
+          [-71.3300, 42.2000]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Medway",
+        "id": "medway",
+        "mapc_subregion": "TRIC",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.4200, 42.1600],
+          [-71.3800, 42.1600],
+          [-71.3800, 42.1250],
+          [-71.4200, 42.1250],
+          [-71.4200, 42.1600]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Millis",
+        "id": "millis",
+        "mapc_subregion": "TRIC",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.3700, 42.1800],
+          [-71.3350, 42.1800],
+          [-71.3350, 42.1500],
+          [-71.3700, 42.1500],
+          [-71.3700, 42.1800]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Norfolk",
+        "id": "norfolk",
+        "mapc_subregion": "TRIC",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.3500, 42.1350],
+          [-71.3050, 42.1350],
+          [-71.3050, 42.1000],
+          [-71.3500, 42.1000],
+          [-71.3500, 42.1350]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Norwood",
+        "id": "norwood",
+        "mapc_subregion": "TRIC",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.2200, 42.2050],
+          [-71.1800, 42.2050],
+          [-71.1800, 42.1700],
+          [-71.2200, 42.1700],
+          [-71.2200, 42.2050]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Plainville",
+        "id": "plainville",
+        "mapc_subregion": "TRIC",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.3550, 42.0250],
+          [-71.3150, 42.0250],
+          [-71.3150, 41.9950],
+          [-71.3550, 41.9950],
+          [-71.3550, 42.0250]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Randolph",
+        "id": "randolph",
+        "mapc_subregion": "TRIC",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.0700, 42.1850],
+          [-71.0300, 42.1850],
+          [-71.0300, 42.1500],
+          [-71.0700, 42.1500],
+          [-71.0700, 42.1850]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sharon",
+        "id": "sharon",
+        "mapc_subregion": "TRIC",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.2000, 42.1350],
+          [-71.1550, 42.1350],
+          [-71.1550, 42.0950],
+          [-71.2000, 42.0950],
+          [-71.2000, 42.1350]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stoughton",
+        "id": "stoughton",
+        "mapc_subregion": "TRIC",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.1200, 42.1400],
+          [-71.0750, 42.1400],
+          [-71.0750, 42.1000],
+          [-71.1200, 42.1000],
+          [-71.1200, 42.1400]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Walpole",
+        "id": "walpole",
+        "mapc_subregion": "TRIC",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.2800, 42.1600],
+          [-71.2300, 42.1600],
+          [-71.2300, 42.1150],
+          [-71.2800, 42.1150],
+          [-71.2800, 42.1600]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Westwood",
+        "id": "westwood",
+        "mapc_subregion": "TRIC",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.2350, 42.2300],
+          [-71.1950, 42.2300],
+          [-71.1950, 42.1950],
+          [-71.2350, 42.1950],
+          [-71.2350, 42.2300]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wrentham",
+        "id": "wrentham",
+        "mapc_subregion": "TRIC",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.3700, 42.0800],
+          [-71.3150, 42.0800],
+          [-71.3150, 42.0350],
+          [-71.3700, 42.0350],
+          [-71.3700, 42.0800]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Braintree",
+        "id": "braintree",
+        "mapc_subregion": "SSC",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.0200, 42.2200],
+          [-70.9750, 42.2200],
+          [-70.9750, 42.1850],
+          [-71.0200, 42.1850],
+          [-71.0200, 42.2200]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cohasset",
+        "id": "cohasset",
+        "mapc_subregion": "SSC",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-70.8400, 42.2550],
+          [-70.8000, 42.2550],
+          [-70.8000, 42.2200],
+          [-70.8400, 42.2200],
+          [-70.8400, 42.2550]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Duxbury",
+        "id": "duxbury",
+        "mapc_subregion": "SSC",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-70.7400, 42.0700],
+          [-70.6800, 42.0700],
+          [-70.6800, 42.0200],
+          [-70.7400, 42.0200],
+          [-70.7400, 42.0700]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hanover",
+        "id": "hanover",
+        "mapc_subregion": "SSC",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-70.8600, 42.1300],
+          [-70.8100, 42.1300],
+          [-70.8100, 42.0900],
+          [-70.8600, 42.0900],
+          [-70.8600, 42.1300]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hingham",
+        "id": "hingham",
+        "mapc_subregion": "SSC",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-70.9100, 42.2500],
+          [-70.8500, 42.2500],
+          [-70.8500, 42.2050],
+          [-70.9100, 42.2050],
+          [-70.9100, 42.2500]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Holbrook",
+        "id": "holbrook",
+        "mapc_subregion": "SSC",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.0050, 42.1700],
+          [-70.9750, 42.1700],
+          [-70.9750, 42.1450],
+          [-71.0050, 42.1450],
+          [-71.0050, 42.1700]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hull",
+        "id": "hull",
+        "mapc_subregion": "SSC",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-70.8800, 42.3100],
+          [-70.8550, 42.3100],
+          [-70.8550, 42.2750],
+          [-70.8800, 42.2750],
+          [-70.8800, 42.3100]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Marshfield",
+        "id": "marshfield",
+        "mapc_subregion": "SSC",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-70.7600, 42.1200],
+          [-70.6900, 42.1200],
+          [-70.6900, 42.0700],
+          [-70.7600, 42.0700],
+          [-70.7600, 42.1200]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Norwell",
+        "id": "norwell",
+        "mapc_subregion": "SSC",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-70.8300, 42.1800],
+          [-70.7800, 42.1800],
+          [-70.7800, 42.1400],
+          [-70.8300, 42.1400],
+          [-70.8300, 42.1800]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pembroke",
+        "id": "pembroke",
+        "mapc_subregion": "SSC",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-70.8200, 42.0850],
+          [-70.7700, 42.0850],
+          [-70.7700, 42.0450],
+          [-70.8200, 42.0450],
+          [-70.8200, 42.0850]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rockland",
+        "id": "rockland",
+        "mapc_subregion": "SSC",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-70.9250, 42.1400],
+          [-70.8850, 42.1400],
+          [-70.8850, 42.1100],
+          [-70.9250, 42.1100],
+          [-70.9250, 42.1400]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Scituate",
+        "id": "scituate",
+        "mapc_subregion": "SSC",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-70.7900, 42.2200],
+          [-70.7300, 42.2200],
+          [-70.7300, 42.1700],
+          [-70.7900, 42.1700],
+          [-70.7900, 42.2200]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Weymouth",
+        "id": "weymouth",
+        "mapc_subregion": "SSC",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-70.9700, 42.2300],
+          [-70.9200, 42.2300],
+          [-70.9200, 42.1850],
+          [-70.9700, 42.1850],
+          [-70.9700, 42.2300]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bellingham",
+        "id": "bellingham",
+        "mapc_subregion": "SWAP",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.5100, 42.1000],
+          [-71.4600, 42.1000],
+          [-71.4600, 42.0600],
+          [-71.5100, 42.0600],
+          [-71.5100, 42.1000]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Franklin",
+        "id": "franklin",
+        "mapc_subregion": "SWAP",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.4300, 42.1050],
+          [-71.3700, 42.1050],
+          [-71.3700, 42.0550],
+          [-71.4300, 42.0550],
+          [-71.4300, 42.1050]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Milford",
+        "id": "milford",
+        "mapc_subregion": "SWAP",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.5400, 42.1650],
+          [-71.4900, 42.1650],
+          [-71.4900, 42.1250],
+          [-71.5400, 42.1250],
+          [-71.5400, 42.1650]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Arlington",
+        "id": "arlington",
+        "mapc_subregion": "Inner Core",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.1800, 42.4250],
+          [-71.1450, 42.4250],
+          [-71.1450, 42.3950],
+          [-71.1800, 42.3950],
+          [-71.1800, 42.4250]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Belmont",
+        "id": "belmont",
+        "mapc_subregion": "Inner Core",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.2100, 42.4050],
+          [-71.1750, 42.4050],
+          [-71.1750, 42.3800],
+          [-71.2100, 42.3800],
+          [-71.2100, 42.4050]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Boston",
+        "id": "boston",
+        "mapc_subregion": "Inner Core",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.1300, 42.3900],
+          [-71.0200, 42.3900],
+          [-71.0000, 42.3600],
+          [-70.9900, 42.3300],
+          [-71.0100, 42.3000],
+          [-71.0500, 42.2800],
+          [-71.0800, 42.2800],
+          [-71.1000, 42.2950],
+          [-71.1100, 42.3200],
+          [-71.1200, 42.3500],
+          [-71.1300, 42.3900]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Brookline",
+        "id": "brookline",
+        "mapc_subregion": "Inner Core",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.1500, 42.3500],
+          [-71.1100, 42.3500],
+          [-71.1100, 42.3200],
+          [-71.1500, 42.3200],
+          [-71.1500, 42.3500]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cambridge",
+        "id": "cambridge",
+        "mapc_subregion": "Inner Core",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.1450, 42.3950],
+          [-71.0900, 42.3950],
+          [-71.0900, 42.3600],
+          [-71.1450, 42.3600],
+          [-71.1450, 42.3950]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chelsea",
+        "id": "chelsea",
+        "mapc_subregion": "Inner Core",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.0400, 42.4050],
+          [-71.0100, 42.4050],
+          [-71.0100, 42.3850],
+          [-71.0400, 42.3850],
+          [-71.0400, 42.4050]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Everett",
+        "id": "everett",
+        "mapc_subregion": "Inner Core",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.0700, 42.4150],
+          [-71.0400, 42.4150],
+          [-71.0400, 42.3950],
+          [-71.0700, 42.3950],
+          [-71.0700, 42.4150]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Malden",
+        "id": "malden",
+        "mapc_subregion": "Inner Core",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.0800, 42.4350],
+          [-71.0450, 42.4350],
+          [-71.0450, 42.4100],
+          [-71.0800, 42.4100],
+          [-71.0800, 42.4350]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Medford",
+        "id": "medford",
+        "mapc_subregion": "Inner Core",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.1250, 42.4300],
+          [-71.0850, 42.4300],
+          [-71.0850, 42.3950],
+          [-71.1250, 42.3950],
+          [-71.1250, 42.4300]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Melrose",
+        "id": "melrose",
+        "mapc_subregion": "Inner Core",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.0750, 42.4650],
+          [-71.0450, 42.4650],
+          [-71.0450, 42.4400],
+          [-71.0750, 42.4400],
+          [-71.0750, 42.4650]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Milton",
+        "id": "milton",
+        "mapc_subregion": "Inner Core",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.1000, 42.2700],
+          [-71.0500, 42.2700],
+          [-71.0500, 42.2350],
+          [-71.1000, 42.2350],
+          [-71.1000, 42.2700]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Needham",
+        "id": "needham",
+        "mapc_subregion": "Inner Core",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.2600, 42.3050],
+          [-71.2100, 42.3050],
+          [-71.2100, 42.2700],
+          [-71.2600, 42.2700],
+          [-71.2600, 42.3050]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Newton",
+        "id": "newton",
+        "mapc_subregion": "Inner Core",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.2300, 42.3700],
+          [-71.1600, 42.3700],
+          [-71.1600, 42.3200],
+          [-71.2300, 42.3200],
+          [-71.2300, 42.3700]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Quincy",
+        "id": "quincy",
+        "mapc_subregion": "Inner Core",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.0300, 42.2700],
+          [-70.9700, 42.2700],
+          [-70.9700, 42.2250],
+          [-71.0300, 42.2250],
+          [-71.0300, 42.2700]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Revere",
+        "id": "revere",
+        "mapc_subregion": "Inner Core",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.0200, 42.4250],
+          [-70.9850, 42.4250],
+          [-70.9850, 42.3950],
+          [-71.0200, 42.3950],
+          [-71.0200, 42.4250]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saugus",
+        "id": "saugus",
+        "mapc_subregion": "Inner Core",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.0300, 42.4700],
+          [-70.9900, 42.4700],
+          [-70.9900, 42.4350],
+          [-71.0300, 42.4350],
+          [-71.0300, 42.4700]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Somerville",
+        "id": "somerville",
+        "mapc_subregion": "Inner Core",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.1100, 42.4000],
+          [-71.0750, 42.4000],
+          [-71.0750, 42.3800],
+          [-71.1100, 42.3800],
+          [-71.1100, 42.4000]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Waltham",
+        "id": "waltham",
+        "mapc_subregion": "Inner Core",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.2600, 42.4050],
+          [-71.2100, 42.4050],
+          [-71.2100, 42.3650],
+          [-71.2600, 42.3650],
+          [-71.2600, 42.4050]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Watertown",
+        "id": "watertown",
+        "mapc_subregion": "Inner Core",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.2000, 42.3750],
+          [-71.1650, 42.3750],
+          [-71.1650, 42.3550],
+          [-71.2000, 42.3550],
+          [-71.2000, 42.3750]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Winthrop",
+        "id": "winthrop",
+        "mapc_subregion": "Inner Core",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-70.9900, 42.3850],
+          [-70.9600, 42.3850],
+          [-70.9600, 42.3650],
+          [-70.9900, 42.3650],
+          [-70.9900, 42.3850]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Beverly",
+        "id": "beverly",
+        "mapc_subregion": "NSTF",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-70.9000, 42.5700],
+          [-70.8400, 42.5700],
+          [-70.8400, 42.5350],
+          [-70.9000, 42.5350],
+          [-70.9000, 42.5700]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Danvers",
+        "id": "danvers",
+        "mapc_subregion": "NSTF",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-70.9600, 42.5750],
+          [-70.9100, 42.5750],
+          [-70.9100, 42.5400],
+          [-70.9600, 42.5400],
+          [-70.9600, 42.5750]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Essex",
+        "id": "essex",
+        "mapc_subregion": "NSTF",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-70.7900, 42.6500],
+          [-70.7500, 42.6500],
+          [-70.7500, 42.6200],
+          [-70.7900, 42.6200],
+          [-70.7900, 42.6500]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gloucester",
+        "id": "gloucester",
+        "mapc_subregion": "NSTF",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-70.7200, 42.6500],
+          [-70.6400, 42.6500],
+          [-70.6400, 42.5900],
+          [-70.7200, 42.5900],
+          [-70.7200, 42.6500]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hamilton",
+        "id": "hamilton",
+        "mapc_subregion": "NSTF",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-70.8900, 42.6250],
+          [-70.8500, 42.6250],
+          [-70.8500, 42.5900],
+          [-70.8900, 42.5900],
+          [-70.8900, 42.6250]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ipswich",
+        "id": "ipswich",
+        "mapc_subregion": "NSTF",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-70.8800, 42.7000],
+          [-70.8100, 42.7000],
+          [-70.8100, 42.6400],
+          [-70.8800, 42.6400],
+          [-70.8800, 42.7000]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lynn",
+        "id": "lynn",
+        "mapc_subregion": "NSTF",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-70.9700, 42.4850],
+          [-70.9200, 42.4850],
+          [-70.9200, 42.4500],
+          [-70.9700, 42.4500],
+          [-70.9700, 42.4850]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Manchester-by-the-Sea",
+        "id": "manchester-by-the-sea",
+        "mapc_subregion": "NSTF",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-70.7800, 42.5900],
+          [-70.7400, 42.5900],
+          [-70.7400, 42.5600],
+          [-70.7800, 42.5600],
+          [-70.7800, 42.5900]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Marblehead",
+        "id": "marblehead",
+        "mapc_subregion": "NSTF",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-70.8700, 42.5100],
+          [-70.8350, 42.5100],
+          [-70.8350, 42.4850],
+          [-70.8700, 42.4850],
+          [-70.8700, 42.5100]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Middleton",
+        "id": "middleton",
+        "mapc_subregion": "NSTF",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.0200, 42.6050],
+          [-70.9700, 42.6050],
+          [-70.9700, 42.5700],
+          [-71.0200, 42.5700],
+          [-71.0200, 42.6050]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nahant",
+        "id": "nahant",
+        "mapc_subregion": "NSTF",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-70.9300, 42.4350],
+          [-70.9050, 42.4350],
+          [-70.9050, 42.4150],
+          [-70.9300, 42.4150],
+          [-70.9300, 42.4350]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Peabody",
+        "id": "peabody",
+        "mapc_subregion": "NSTF",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-70.9800, 42.5500],
+          [-70.9250, 42.5500],
+          [-70.9250, 42.5100],
+          [-70.9800, 42.5100],
+          [-70.9800, 42.5500]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rockport",
+        "id": "rockport",
+        "mapc_subregion": "NSTF",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-70.6500, 42.6700],
+          [-70.6000, 42.6700],
+          [-70.6000, 42.6350],
+          [-70.6500, 42.6350],
+          [-70.6500, 42.6700]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Salem",
+        "id": "salem",
+        "mapc_subregion": "NSTF",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-70.9200, 42.5300],
+          [-70.8700, 42.5300],
+          [-70.8700, 42.5000],
+          [-70.9200, 42.5000],
+          [-70.9200, 42.5300]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Swampscott",
+        "id": "swampscott",
+        "mapc_subregion": "NSTF",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-70.9100, 42.4800],
+          [-70.8800, 42.4800],
+          [-70.8800, 42.4600],
+          [-70.9100, 42.4600],
+          [-70.9100, 42.4800]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Topsfield",
+        "id": "topsfield",
+        "mapc_subregion": "NSTF",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-71.0000, 42.6500],
+          [-70.9500, 42.6500],
+          [-70.9500, 42.6100],
+          [-71.0000, 42.6100],
+          [-71.0000, 42.6500]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wenham",
+        "id": "wenham",
+        "mapc_subregion": "NSTF",
+        "has_plan": false,
+        "plan_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-70.9000, 42.6100],
+          [-70.8600, 42.6100],
+          [-70.8600, 42.5800],
+          [-70.9000, 42.5800],
+          [-70.9000, 42.6100]
+        ]]
+      }
+    }
+  ]
+}
