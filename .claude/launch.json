@@ -12,6 +12,12 @@
       "runtimeExecutable": "bash",
       "runtimeArgs": ["-c", "cd /Users/stephenlarrick/Documents/mapc-osm-explorer && npm run dev -- --port 5174"],
       "port": 5174
+    },
+    {
+      "name": "datacommon-webmaps",
+      "runtimeExecutable": "bash",
+      "runtimeArgs": ["-c", "cd '/Users/stephenlarrick/Documents/DataCommon Web Map/datacommon-webmaps' && npm run dev -- --port 5175"],
+      "port": 5175
     }
   ]
 }
