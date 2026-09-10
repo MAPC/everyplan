@@ -4,20 +4,38 @@
     {
       "name": "everyplan-dev",
       "runtimeExecutable": "bash",
-      "runtimeArgs": ["-c", "export PATH=$HOME/.local/bin:$PATH && cd packages/standalone && npx next dev -p 3000"],
+      "runtimeArgs": [
+        "-c",
+        "export PATH=$HOME/.local/bin:$PATH && cd packages/standalone && npx next dev -p 3000"
+      ],
       "port": 3000
     },
     {
       "name": "mapc-osm-explorer",
       "runtimeExecutable": "bash",
-      "runtimeArgs": ["-c", "cd /Users/stephenlarrick/Documents/mapc-osm-explorer && npm run dev -- --port 5174"],
+      "runtimeArgs": [
+        "-c",
+        "cd /Users/stephenlarrick/Documents/mapc-osm-explorer && npm run dev -- --port 5174"
+      ],
       "port": 5174
     },
     {
       "name": "datacommon-webmaps",
       "runtimeExecutable": "bash",
-      "runtimeArgs": ["-c", "cd '/Users/stephenlarrick/Documents/DataCommon Web Map/datacommon-webmaps' && npm run dev -- --port 5175"],
+      "runtimeArgs": [
+        "-c",
+        "cd '/Users/stephenlarrick/Documents/DataCommon Web Map/datacommon-webmaps' && npm run dev -- --port 5175"
+      ],
       "port": 5175
+    },
+    {
+      "name": "where-ive-been-ma",
+      "runtimeExecutable": "bash",
+      "runtimeArgs": [
+        "-c",
+        "cd /Users/stephenlarrick/Documents/where-ive-been-ma && npm run dev -- --port 5176"
+      ],
+      "port": 5176
     }
   ]
 }
